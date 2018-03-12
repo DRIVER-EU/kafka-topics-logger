@@ -35,7 +35,7 @@
     "command-line-args": "^5.0.2",
     "command-line-usage": "^5.0.2",
     "kafka-node": "^2.4.1",
-    "node-test-bed-adapter": "^0.3.11"
+    "node-test-bed-adapter": "^0.3.12"
   },
   "devDependencies": {
     "@types/command-line-args": "^4.0.2",
