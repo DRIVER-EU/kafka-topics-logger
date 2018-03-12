@@ -30,7 +30,7 @@ export class CommandLineInterface {
     {
       name: 'index',
       alias: 'i',
-      type: String,
+      type: Number,
       defaultValue: 0,
       typeLabel: '{underline String}',
       description: 'Topic index (offset) to start reading from.'
