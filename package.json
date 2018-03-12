@@ -1,0 +1,44 @@
+{
+  "name": "kafka-topics-logger",
+  "version": "0.0.0",
+  "description": "Log messages in a Kafka topic to a JSON file.",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "bin": "./bin/run.js",
+  "scripts": {
+    "build": "tsc -w",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "minor-release": "npm version minor && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRIVER-EU/kafka-topics-logger.git"
+  },
+  "keywords": [
+    "Apache",
+    "Kafka",
+    "Apache",
+    "AVRO",
+    "log",
+    "schema",
+    "registry",
+    "test-bed"
+  ],
+  "author": "Erik Vullings <erik.vullings@gmail.com> (http://www.tno.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DRIVER-EU/kafka-topics-logger/issues"
+  },
+  "homepage": "https://github.com/DRIVER-EU/kafka-topics-logger#readme",
+  "dependencies": {
+    "avsc": "^5.2.3",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.2",
+    "kafka-node": "^2.4.1",
+    "node-test-bed-adapter": "^0.3.11"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^4.0.2",
+    "@types/node": "^9.4.7"
+  }
+}
