@@ -1,5 +1,6 @@
 # KAFKA-TOPICS-LOGGER
 
+```console
   MIT license.
 
   Log messages in a Kafka topic to a JSON file.
@@ -22,7 +23,7 @@ Examples
   starting at offset 10.                        10
   04. Log the css-demo topic specifying         $ kafka-topics-logger css-demo -k
   registry and kafka.                           localhost:3501 -r localhost:3502
-
+```
 
 # Installation instructions
 
