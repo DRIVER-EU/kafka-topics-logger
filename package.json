@@ -1,6 +1,6 @@
 {
   "name": "kafka-topics-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Log messages in a Kafka topic to a JSON file.",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
