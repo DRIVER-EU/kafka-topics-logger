@@ -9,16 +9,13 @@ const log = Logger.instance;
 
 export class TopicImporter {
   private id = 'kafka-topics-logger';
-  private topic: string;
   private adapter: TestBedAdapter;
   private outputFile: string;
   private timer: NodeJS.Timer;
   private messages: IAdapterMessage[] = [];
 
   constructor(options: ICommandOptions) {
-    this.topic = options.topic;
     this.outputFile = this.createOutputFile(options.output);
-    // fs.createWriteStream(this.outputFile, { encoding: 'utf8' });
 
     this.adapter = new TestBedAdapter({
       kafkaHost: options.kafka,
