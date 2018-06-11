@@ -18,8 +18,13 @@ export interface ICommandOptions {
   help: boolean;
 }
 
+export interface IOptionDefinition extends OptionDefinition {
+  typeLabel: string;
+  description: string;
+}
+
 export class CommandLineInterface {
-  static optionDefinitions: OptionDefinition[] = [
+  static optionDefinitions: IOptionDefinition[] = [
     {
       name: 'help',
       alias: 'h',
@@ -103,7 +108,7 @@ export class CommandLineInterface {
   ];
 }
 
-const options: ICommandOptions = commandLineArgs(CommandLineInterface.optionDefinitions);
+const options = commandLineArgs(CommandLineInterface.optionDefinitions) as ICommandOptions;
 
 if (options.help || !options.topic) {
   const getUsage = require('command-line-usage');
