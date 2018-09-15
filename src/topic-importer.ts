@@ -23,7 +23,7 @@ export class TopicImporter {
       clientId: this.id,
       fetchAllSchemas: false,
       fromOffset: true,
-      wrapUnions: 'auto',
+      wrapUnions: options.unwrap ? 'auto' : true,
       consume: [
         {
           offset: options.index,

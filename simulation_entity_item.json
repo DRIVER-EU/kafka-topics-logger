@@ -1,0 +1,1698 @@
+[
+  {
+    "topic": "simulation_entity_item",
+    "offset": 0,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "074a642f-2f6f-4396-b0f0-5211af6f1fb7",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549431581,
+      "dateTimeExpires": 63672549491581,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 1,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ba21a796-3761-445f-8f38-27ecb651bc98",
+      "name": "test ambulance 2",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586107555,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 0,
+        "pitch": 0,
+        "magnitude": 0
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "2d37e772-4ac5-408a-b733-33b279962c79",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549431647,
+      "dateTimeExpires": 63672549491647,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 2,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001530953899405,
+        "longitude": 4.3525047721863075,
+        "altitude": {
+          "double": 1
+        }
+      },
+      "orientation": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "7574f34d-9597-47c8-968a-74f590caeb95",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549432753,
+      "dateTimeExpires": 63672549492753,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 3,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001854602880734,
+        "longitude": 4.352590602874784,
+        "altitude": {
+          "double": 3
+        }
+      },
+      "orientation": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "magnitude": 14
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "224d3664-c2e4-474c-b7c9-ec2804d093f9",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549433753,
+      "dateTimeExpires": 63672549493753,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 4,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00093649049029,
+        "longitude": 4.349168104171781,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "b5e004ad-f74a-40da-9391-afb91ff77f30",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549434754,
+      "dateTimeExpires": 63672549494754,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 5,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00073172904365,
+        "longitude": 4.34770898246768,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 226.30217158064755,
+        "pitch": 0,
+        "roll": 4
+      },
+      "velocity": {
+        "yaw": 172.09753503281684,
+        "pitch": 0,
+        "magnitude": 13
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "ba4a2a0d-16ee-4e14-be6c-e7e6b0bddf91",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549435754,
+      "dateTimeExpires": 63672549495754,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 6,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "2a2f9f58-5a5a-4f26-97ba-e1c1414a1082",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549436755,
+      "dateTimeExpires": 63672549496755,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 7,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "03552a86-1f54-4c5c-9a80-427ebff6eead",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549437755,
+      "dateTimeExpires": 63672549497755,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 8,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001530953899405,
+        "longitude": 4.3525047721863075,
+        "altitude": {
+          "double": 1
+        }
+      },
+      "orientation": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "9194694f-2055-4f7f-b9c3-a8884df8431b",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549438756,
+      "dateTimeExpires": 63672549498756,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 9,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001854602880734,
+        "longitude": 4.352590602874784,
+        "altitude": {
+          "double": 3
+        }
+      },
+      "orientation": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "magnitude": 14
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "8143e2c5-7544-4449-9b93-edf8246fc03b",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549439756,
+      "dateTimeExpires": 63672549499756,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 10,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00093649049029,
+        "longitude": 4.349168104171781,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "39f49701-f307-42dc-8ce9-dafad64c7856",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549440757,
+      "dateTimeExpires": 63672549500757,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 11,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00073172904365,
+        "longitude": 4.34770898246768,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 226.30217158064755,
+        "pitch": 0,
+        "roll": 4
+      },
+      "velocity": {
+        "yaw": 172.09753503281684,
+        "pitch": 0,
+        "magnitude": 13
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "04b44b65-fe01-4d31-a86a-1006c7610330",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549441757,
+      "dateTimeExpires": 63672549501757,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 12,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "814a79c6-f689-4cb6-9f48-e7ad864aa4b3",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549442758,
+      "dateTimeExpires": 63672549502758,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 13,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "0efd54e6-9b90-4068-a886-9ae1f3a8d8da",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549443759,
+      "dateTimeExpires": 63672549503759,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 14,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001530953899405,
+        "longitude": 4.3525047721863075,
+        "altitude": {
+          "double": 1
+        }
+      },
+      "orientation": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "3551e36b-d5c4-4f2d-8a2e-0e72e867a1c1",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549444760,
+      "dateTimeExpires": 63672549504760,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 15,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001854602880734,
+        "longitude": 4.352590602874784,
+        "altitude": {
+          "double": 3
+        }
+      },
+      "orientation": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "magnitude": 14
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "a0f62558-ad99-48d9-a8fc-01657f39eb43",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549445761,
+      "dateTimeExpires": 63672549505761,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 16,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00093649049029,
+        "longitude": 4.349168104171781,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "fc74515c-3bab-41b2-a7c7-4f10b6584e31",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549446762,
+      "dateTimeExpires": 63672549506762,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 17,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00073172904365,
+        "longitude": 4.34770898246768,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 226.30217158064755,
+        "pitch": 0,
+        "roll": 4
+      },
+      "velocity": {
+        "yaw": 172.09753503281684,
+        "pitch": 0,
+        "magnitude": 13
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "6bcd5d5d-1a23-4463-8d5f-9bda93a730bc",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549447763,
+      "dateTimeExpires": 63672549507763,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 18,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "7272e91d-6c08-4f27-a4a4-8a444289baff",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549448764,
+      "dateTimeExpires": 63672549508764,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 19,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "8251b35d-30b9-4c20-91db-bc637c7a9a86",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549449764,
+      "dateTimeExpires": 63672549509764,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 20,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001530953899405,
+        "longitude": 4.3525047721863075,
+        "altitude": {
+          "double": 1
+        }
+      },
+      "orientation": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "059beb6c-f6bb-4d06-aa7b-c8e915f7b7f5",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549450765,
+      "dateTimeExpires": 63672549510765,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 21,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001854602880734,
+        "longitude": 4.352590602874784,
+        "altitude": {
+          "double": 3
+        }
+      },
+      "orientation": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "magnitude": 14
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "a3d5e5bb-2dd6-4065-8fee-f0fc9e45572e",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549451766,
+      "dateTimeExpires": 63672549511766,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 22,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00093649049029,
+        "longitude": 4.349168104171781,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "75921d09-128d-47d0-8195-a51ebbb8e0b4",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549452767,
+      "dateTimeExpires": 63672549512767,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 23,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00073172904365,
+        "longitude": 4.34770898246768,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 226.30217158064755,
+        "pitch": 0,
+        "roll": 4
+      },
+      "velocity": {
+        "yaw": 172.09753503281684,
+        "pitch": 0,
+        "magnitude": 13
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "5a4b14f6-8250-4cc2-8bbc-56355474027b",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549453767,
+      "dateTimeExpires": 63672549513767,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 24,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "c7f413c6-73c0-4802-9ddd-de6aa9705751",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549454768,
+      "dateTimeExpires": 63672549514768,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 25,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "2e16f783-0efe-436e-a93e-242afe417285",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549455769,
+      "dateTimeExpires": 63672549515769,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 26,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001530953899405,
+        "longitude": 4.3525047721863075,
+        "altitude": {
+          "double": 1
+        }
+      },
+      "orientation": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 53.71443563944251,
+        "pitch": 2,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "6c1ebe3a-3789-463f-a935-eae5fbf84646",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549456770,
+      "dateTimeExpires": 63672549516770,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 27,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.001854602880734,
+        "longitude": 4.352590602874784,
+        "altitude": {
+          "double": 3
+        }
+      },
+      "orientation": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 234.11965607549456,
+        "pitch": -2,
+        "magnitude": 14
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "33a2e0dc-6321-4dfe-89cc-78bc661bb33f",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549457770,
+      "dateTimeExpires": 63672549517770,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 28,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00093649049029,
+        "longitude": 4.349168104171781,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 269.3182493953761,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "2cf48086-085a-4571-86e9-ef44ed208fb2",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549458771,
+      "dateTimeExpires": 63672549518771,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 29,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00073172904365,
+        "longitude": 4.34770898246768,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 226.30217158064755,
+        "pitch": 0,
+        "roll": 4
+      },
+      "velocity": {
+        "yaw": 172.09753503281684,
+        "pitch": 0,
+        "magnitude": 13
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "058566d1-97d8-4137-9be5-26d3cf4c2e12",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549459771,
+      "dateTimeExpires": 63672549519771,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 30,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "4b6ae32d-6e0e-486c-a328-ace787f94da0",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549460772,
+      "dateTimeExpires": 63672549520772,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  },
+  {
+    "topic": "simulation_entity_item",
+    "offset": 31,
+    "partition": 0,
+    "highWaterOffset": 32,
+    "value": {
+      "guid": "ff41bde1-500c-429a-9e41-cf5d86c8722b",
+      "name": "test ambulance",
+      "owner": "xvr-css-hub",
+      "location": {
+        "latitude": 52.00064586106145,
+        "longitude": 4.348803323745756,
+        "altitude": {
+          "double": 0
+        }
+      },
+      "orientation": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "roll": 0
+      },
+      "velocity": {
+        "yaw": 73.55690987936896,
+        "pitch": 0,
+        "magnitude": 11
+      },
+      "visibleForParticipant": true,
+      "movable": true,
+      "itemType": {
+        "eu.driver.model.sim.entity.item.VehicleType": {
+          "subType": "CAR"
+        }
+      },
+      "scenarioLabel": {
+        "eu.driver.model.sim.entity.item.RescueLabel": {
+          "subLabel": "MEDICAL"
+        }
+      },
+      "userTags": null,
+      "physicalConnections": null,
+      "group": null,
+      "formation": null,
+      "unit": null
+    },
+    "key": {
+      "distributionID": "932c4f8a-77e3-4e25-92da-e31303f48533",
+      "senderID": "xvr-css-hub",
+      "dateTimeSent": 63672549461772,
+      "dateTimeExpires": 63672549521772,
+      "distributionStatus": "Unknown",
+      "distributionKind": "Unknown"
+    }
+  }
+]

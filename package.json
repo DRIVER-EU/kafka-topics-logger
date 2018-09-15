@@ -6,7 +6,7 @@
   "typings": "./dist/cli.d.ts",
   "bin": "./bin/run.js",
   "scripts": {
-    "build": "tsc -w",
+    "start": "tsc -w",
     "cap": "node dist/cli.js standard_cap",
     "patch-release": "tsc && npm version patch && npm publish && git push --follow-tags",
     "minor-release": "tsc && npm version minor && npm publish && git push --follow-tags"
@@ -36,7 +36,7 @@
     "command-line-args": "^5.0.2",
     "command-line-usage": "^5.0.5",
     "kafka-node": "^3.0.1",
-    "node-test-bed-adapter": "^0.5.1"
+    "node-test-bed-adapter": "^0.5.4"
   },
   "devDependencies": {
     "@types/command-line-args": "^5.0.0",

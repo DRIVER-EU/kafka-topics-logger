@@ -9,12 +9,11 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}\\dist\\cli.js",
-      // "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": [
         "${workspaceFolder}/dist/**/*.js"
       ],
       "args": [
-        // "connect-status-heartbeat"
+        "simulation_entity_item"
       ]
     }
   ]

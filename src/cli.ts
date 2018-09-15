@@ -15,11 +15,12 @@ export interface ICommandOptions {
   /** Kafka schema registry */
   registry: string;
   /** Display help output */
-  help: boolean;
+  help?: boolean;
+  /** Unwrap */
+  unwrap?: boolean;
 }
 
 export interface IOptionDefinition extends OptionDefinition {
-  typeLabel: string;
   description: string;
 }
 
@@ -29,7 +30,6 @@ export class CommandLineInterface {
       name: 'help',
       alias: 'h',
       type: Boolean,
-      typeLabel: '{underline Boolean}',
       description: 'Show help text.'
     },
     {
@@ -37,7 +37,6 @@ export class CommandLineInterface {
       alias: 'i',
       type: Number,
       defaultValue: 0,
-      typeLabel: '{underline String}',
       description: 'Topic index (offset) to start reading from.'
     },
     {
@@ -45,7 +44,6 @@ export class CommandLineInterface {
       alias: 't',
       type: String,
       defaultOption: true,
-      typeLabel: '{underline String}',
       description: 'Topic to log.'
     },
     {
@@ -53,7 +51,6 @@ export class CommandLineInterface {
       alias: 'k',
       type: String,
       defaultValue: 'localhost:3501',
-      typeLabel: '{underline String}',
       description: 'Kafka broker url [localhost:3501].'
     },
     {
@@ -61,15 +58,19 @@ export class CommandLineInterface {
       alias: 'r',
       type: String,
       defaultValue: 'localhost:3502',
-      typeLabel: '{underline String}',
       description: 'Schema Registry url [localhost:3502].'
     },
     {
       name: 'output',
       alias: 'o',
       type: String,
-      typeLabel: '{underline String}',
       description: 'The output file to log to. Default value is the topic name plus extension.'
+    },
+    {
+      name: 'unwrap',
+      alias: 'u',
+      type: Boolean,
+      description: 'Unwrap union types to consume the JSON regularly. However, converting back to AVRO may not be possible anymore.'
     }
   ];
 

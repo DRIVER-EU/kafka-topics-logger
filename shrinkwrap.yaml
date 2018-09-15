@@ -3,7 +3,7 @@ dependencies:
   command-line-args: 5.0.2
   command-line-usage: 5.0.5
   kafka-node: 3.0.1
-  node-test-bed-adapter: 0.5.1
+  node-test-bed-adapter: 0.5.4
 devDependencies:
   '@types/command-line-args': 5.0.0
   '@types/node': 10.9.4
@@ -308,7 +308,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
-  /node-test-bed-adapter/0.5.1:
+  /node-test-bed-adapter/0.5.4:
     dependencies:
       '@types/bluebird': 3.5.24
       avsc: 5.4.3
@@ -319,7 +319,7 @@ packages:
       url: 0.11.0
     dev: false
     resolution:
-      integrity: sha512-jNID7S7M2stDSD1YJm7OXoTbglIRduzd8HCYgW6H7Sbj3Vncuj3J3JE+JJt7iPXcQTD07jhkBu35eaHltfK8bA==
+      integrity: sha512-klP0+PExlJG8BBJyFCaOq07f6I51tw7ePcbqOucnMh6CFXv9YfSYfjj+cBHc1B6KOTFXKbEqPvsUqaQqxSS9mg==
   /node-zookeeper-client/0.2.2:
     dependencies:
       async: 0.2.10
@@ -472,5 +472,5 @@ specifiers:
   command-line-args: ^5.0.2
   command-line-usage: ^5.0.5
   kafka-node: ^3.0.1
-  node-test-bed-adapter: ^0.5.1
+  node-test-bed-adapter: ^0.5.4
   typescript: ^3.0.3
