@@ -1,14 +1,18 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import * as avsc from 'avsc';
-import { ICommandOptions } from './cli';
-import { TestBedAdapter, Logger, LogLevel, IAdapterMessage } from 'node-test-bed-adapter';
-import { OffsetFetchRequest } from 'kafka-node';
+import * as fs from "fs";
+import * as path from "path";
+import { ICommandOptions } from "./cli";
+import {
+  TestBedAdapter,
+  Logger,
+  LogLevel,
+  IAdapterMessage,
+} from "node-test-bed-adapter";
+import { OffsetFetchRequest } from "kafka-node";
 
 const log = Logger.instance;
 
 export class TopicImporter {
-  private id = 'kafka-topics-logger';
+  private id = "kafka-topics-logger";
   private adapter: TestBedAdapter;
   private outputFile: string;
   private timer: NodeJS.Timer;
@@ -23,29 +27,34 @@ export class TopicImporter {
       clientId: this.id,
       fetchAllSchemas: false,
       fromOffset: true,
-      wrapUnions: options.unwrap ? 'auto' : true,
+      wrapUnions: options.unwrap ? "auto" : true,
       consume: [
         {
           offset: options.index,
-          topic: options.topic
-        } as OffsetFetchRequest
+          topic: options.topic,
+        } as OffsetFetchRequest,
       ],
       logging: {
-        logToConsole: LogLevel.Info
-      }
+        logToConsole: LogLevel.Info,
+      },
     });
-    this.adapter.on('error', (e) => log.error(e));
-    this.adapter.on('message', (message) => this.processMessage(message));
-    this.adapter.on('ready', () => {
-      log.info(`Current time: ${this.adapter.simTime}`);
-      log.info(`${this.id} is connected... starting to read topic ${options.topic} from offset ${options.index}.`);
+    this.adapter.on("error", (e) => log.error(e));
+    this.adapter.on("message", (message) => this.processMessage(message));
+    this.adapter.on("ready", () => {
+      log.info(`Current time: ${this.adapter.simulationTime}`);
+      log.info(
+        `${this.id} is connected... starting to read topic ${options.topic} from offset ${options.index}.`
+      );
     });
     this.adapter.connect();
   }
 
   private createOutputFile(filename: string) {
-    const ext = '.json';
-    return path.resolve(process.cwd(), filename) + (path.extname(filename).toLowerCase() === ext ? '' : ext);
+    const ext = ".json";
+    return (
+      path.resolve(process.cwd(), filename) +
+      (path.extname(filename).toLowerCase() === ext ? "" : ext)
+    );
   }
 
   private processMessage(message: IAdapterMessage) {
@@ -55,14 +64,21 @@ export class TopicImporter {
 
   private reset() {
     const saveAndQuit = () => {
-      fs.writeFile(this.outputFile, JSON.stringify(this.messages, null, 2), { encoding: 'utf8' }, (err) => {
-        if (err) {
-          log.error(err.message);
-          process.exit(1);
+      fs.writeFile(
+        this.outputFile,
+        JSON.stringify(this.messages, null, 2),
+        { encoding: "utf8" },
+        (err) => {
+          if (err) {
+            log.error(err.message);
+            process.exit(1);
+          }
+          log.info(
+            `Successfully saved ${this.messages.length} messages to ${this.outputFile}.`
+          );
+          process.exit(0);
         }
-        log.info(`Successfully saved ${this.messages.length} messages to ${this.outputFile}.`);
-        process.exit(0);
-      });
+      );
     };
     if (this.timer) {
       clearTimeout(this.timer);
