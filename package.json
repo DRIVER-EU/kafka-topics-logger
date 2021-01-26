@@ -1,10 +1,12 @@
 {
   "name": "kafka-topics-logger",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Log messages in a Kafka topic to a JSON file.",
   "main": "./dist/cli.js",
   "typings": "./dist/cli.d.ts",
-  "bin": "./bin/run.js",
+  "bin": {
+    "kafka-topics-logger": "bin/run.js"
+  },
   "scripts": {
     "start": "tsc -w",
     "cap": "node dist/cli.js standard_cap",
